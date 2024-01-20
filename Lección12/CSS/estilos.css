@@ -1,0 +1,20 @@
+body {
+    background-color: #264653;
+}
+h1 {
+    color: #e76f51;
+    text-align: center;
+}
+p {
+color: #f4a261;
+
+background-color: #2a9d8f;
+padding: 15px;
+border: 10px solid #e9c46a;
+/*margin-top: 40px;
+margin-right: 10px;
+margin-bottom: 20px;
+margin-left: 10px;*/
+margin: auto;
+text-align: center;
+}
