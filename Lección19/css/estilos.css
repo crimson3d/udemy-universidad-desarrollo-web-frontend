@@ -1,0 +1,14 @@
+ol {
+    list-style: none;
+    counter-reset: contador;
+}
+ol li{
+    counter-increment: contador;
+}
+ol li::before {
+    color: chocolate;
+    content: "Curso " counter(contador) ") ";
+}
+ol li::after {
+    content: ".";
+}

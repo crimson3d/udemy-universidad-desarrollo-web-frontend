@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*border-spacing: 5px;*/
+    padding: 5px;
+}
+caption {
+    color: indianred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 70px;
+}
+th {
+    color: beige;
+    background-color: rgb(96, 96, 175);
+}
+
+/*reglones pares*/
+tr:nth-child(even) {
+    background-color: rgb(205, 245, 231);
+}
+/*reglones impares*/
+tr:nth-child(odd) {
+    background-color: rgb(213, 202, 224);
+}
+/*
+td {
+    text-align: center;
+}
+th {
+    text-align: left;
+}
+*/
