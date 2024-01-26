@@ -1,0 +1,13 @@
+body{
+    
+    color: cornsilk;
+    background-image: url("/Lección31/img/fondo.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background: dodgerblue;
+}
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+}

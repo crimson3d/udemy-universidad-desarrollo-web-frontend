@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+.rojo {
+    background-color: firebrick;
+    border: 5px solid rgb(19, 175, 19);
+}
+.rosa {
+    background-color: hotpink;
+    border: 5px dashed rgb(198, 46, 122);
+}
+.rojo, .rosa, .violeta{
+    color: white;
+}
+.amarillo {
+    background-color: gold;
+    border: 5px double;
+}
+.violeta {
+    background-color: blueviolet;
+}
+.verde {
+    background-color: lime;
+}
+.azul {
+    background-color: turquoise;
+    border: 10px dotted rgb(50, 141, 132);
+}
