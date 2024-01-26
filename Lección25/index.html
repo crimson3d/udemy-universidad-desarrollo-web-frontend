@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Formulario de login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas semánticas en HTML</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <div class="contenedor">
-        <h2>Hola Jua, mira que Login más chulo, no conecta a ninguna base de datos ni es responsive pero dame tiempo ;-)</h2>
-        <form action="" id="forma" name="forma" method="post">
-            <div class="elemento">
-                <label for="usuario">Usuario</label>
-                <input type="text" id="usuario" name="usuario" required="true"/>
-            </div>
-            <div class="elemento">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required="true"/>
-            </div>
-            <div class="elemento">
-                <input type="submit" value="Enviar"/>
-            </div>
-        </form>
-    </div>
+    <header>
+        <h1>Etiquetas semánticas en HTML5</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+        <a href="#">Acerca De</a>
+    </nav>
+    <section>
+        <h2>Sección 1</h2>
+        <p>Información de la sección</p>
+        <aside>
+            <p>Nombre del Autor</p>
+        </aside>
+    </section>
+    <section>
+        <h2>Sección 2</h2>
+        <article>
+            <h3>Artículo 1</h3>
+        </article>
+        <article>
+            <h3>Artículo 2</h3>
+        </article>
+    </section>
+    <footer>
+        <h2>
+            <a href="http://google.com">Google</a>
+        </h2>
+    </footer>
 </body>
 </html>

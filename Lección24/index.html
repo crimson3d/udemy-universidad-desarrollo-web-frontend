@@ -1,63 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios en HTML</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Formulario de login</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <h1>Formularios en HTML</h1>
-    <form action="mi_servidor" method="get" autocomplete="off">
-        <fieldset>
-            <legend>Datos Persona</legend>
-            
-            <label for="idPersona">Id Persona:</label><br/>
-            <input type="text" id="idPersona" name="idPersona" readonly="true" value="100"/><br/>
-
-            <input type="hidden" id="sistema" name="sistema" value="SAP"/>
-
-            <label for="nombre">Nombre</label><br/>
-            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"/><br/>
-
-            <label for="apellido">Apellido</label><br/>
-            <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"/><br/>
-
-            <label for="email">Email</label><br/>
-            <input type="email" name="email" id="email"/><br/>
-
-            <label for="password">Password</label><br/>
-            <input type="password" id="password" name="password" required="true"/><br/>
-
-            <label for="edad">Edad</label><br/>
-            <input type="number" name="edad" id="edad"/><br/>
-
-            <label for="">Género</label><br/>
-            <input type="radio" id="femenino" name="genero" value="femenino"/>
-            <label for="femenino">Femenino</label><br/>
-            <input type="radio" name="genero" id="masculino" value="masculino"/>
-            <label for="masculino">Masculino</label><br/>
-
-            <label for="">Género música favorita</label><br/>
-            <input type="checkbox" id="clasica" name="musica" value="clasica"/>
-            <label for="clasica">Clasica</label><br/>
-            <input type="checkbox" id="jazz" name="musica" value="jazz"/>
-            <label for="jazz">Jazz</label><br/>
-
-            <label for="autos">Marca de coches favorita</label><br/>
-            <select name="autos" id="autos">
-                <option value="volvo">Volvo</option>
-                <option value="bmw">BMW</option>
-                <option value="Audi" selected="true">Audi</option>
-            </select><br/>
-
-            <label for="comentario">Comentario:</label><br/>
-            <textarea name="comentario" id="comentario" cols="30" rows="10">Este es mi comentario</textarea>
-
-            <br/>
-            <input type="submit" value="Enviar" id=""/>
-            <input type="submit" formnovalidate="formnovalidate" value="enviar sin validar"/>
-            <input type="reset" value="Restablecer"/>
-        </fieldset>
-    </form>
+    <div class="contenedor">
+        <h2>Hola Jua, mira que Login más chulo, no conecta a ninguna base de datos ni es responsive pero dame tiempo ;-)</h2>
+        <form action="" id="forma" name="forma" method="post">
+            <div class="elemento">
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" required="true"/>
+            </div>
+            <div class="elemento">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required="true"/>
+            </div>
+            <div class="elemento">
+                <input type="submit" value="Enviar"/>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

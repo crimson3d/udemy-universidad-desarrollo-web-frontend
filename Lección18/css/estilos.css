@@ -1,23 +1,14 @@
-h1 {
-    color: rgb(24, 24, 114);
+ol {
+    list-style: none;
+    counter-reset: contador;
 }
-ul{
-    list-style-type: none;
-    background-color: rgb(155, 207, 249);
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
+ol li{
+    counter-increment: contador;
 }
-li {
-    float: left;
+ol li::before {
+    color: chocolate;
+    content: "Curso " counter(contador) ") ";
 }
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-}
-li a:hover {
-    color: rgb(210, 210, 75);
+ol li::after {
+    content: ".";
 }

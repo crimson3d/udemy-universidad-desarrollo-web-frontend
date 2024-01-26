@@ -1,44 +1,28 @@
-header {
+h1 {
     text-align: center;
-    color: #f72585;
-    font-size: 20px;
 }
-nav {
-    width: 20%;
-    float: left;
+.rojo {
+    background-color: firebrick;
+    border: 5px solid rgb(19, 175, 19);
 }
-nav a {
-    background-color: #f71570;
-    border-radius: 10px 0 10px 0;
+.rosa {
+    background-color: hotpink;
+    border: 5px dashed rgb(198, 46, 122);
+}
+.rojo, .rosa, .violeta{
     color: white;
-    margin: 10px;
-    padding: 10px;
-    text-decoration: none;
-    display: block;
 }
-section {
-    float: right;
-    width: 75%;
-    color: #7209b7;
-    border-radius: 5px;
-    box-shadow: 1px 0 4px rgb(0,0,0,.2);
-    margin-bottom: 15px;
-    padding: 15px;
+.amarillo {
+    background-color: gold;
+    border: 5px double;
 }
-aside {
-    float: right;
-    width: 30%;
-    padding: 5px;
-    margin: 5px;
-    font-style: italic;
-    color: #4361ee;
-    box-shadow: inset 5px 0 5px -5px #4895ef;
+.violeta {
+    background-color: blueviolet;
 }
-footer {
-    clear: both;
-    padding: 1px;
-    text-align: center;
+.verde {
+    background-color: lime;
 }
-footer a {
-    text-decoration: none;
+.azul {
+    background-color: turquoise;
+    border: 10px dotted rgb(50, 141, 132);
 }

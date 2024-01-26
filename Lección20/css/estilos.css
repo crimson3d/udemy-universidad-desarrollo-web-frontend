@@ -1,9 +1,6 @@
-
-
-#titulo_principal {
+h1 {
     color: rgb(236, 162, 24);
     text-align: center;
-    margin: 15px;
 }
 h2 {
     color: rgb(14, 237, 140);
@@ -11,14 +8,8 @@ h2 {
 p {
     color: rgb(97, 97, 210);
 }
-/*Clase de CSS*/
-.tarjeta {
+div {
     border: 10px solid rgb(209, 246, 152);
     background-color: rgb(177, 143, 188);
     text-align: center;
-    margin: 10px 115px;
-    padding: 15px;
-}
-.titulo {
-    color: rgb(43, 43, 192);
 }
