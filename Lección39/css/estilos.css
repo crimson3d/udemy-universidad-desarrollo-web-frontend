@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(212, 45%, 89%);
+}
+.tarjeta {
+  position: relative;
+  margin: auto;
+  border-radius: 15px;
+  background-color: rgb(254, 254, 254);
+  width: 17em;
+  height: 25em;
+  top: 10em;
+
+}
+      
+.tarjeta img {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  max-width: 90%;
+  border-radius: 5%;
+}
+      
+.P1 {
+  top: 260px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  font-family: 'Outfit', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  font: bold;
+}
+.P2 {
+  position: absolute;
+  top: 330px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400px;
+  color: gray;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+}
+      
+    
+
+  
+  
