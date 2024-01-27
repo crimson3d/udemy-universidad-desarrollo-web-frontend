@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.absoluto{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid firebrick;
+}
+div.sticky{
+    position: sticky;
+    top: 0;
+    border: 1px solid crimson;
+}
